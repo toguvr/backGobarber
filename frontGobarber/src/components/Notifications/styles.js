@@ -10,6 +10,7 @@ export const Badge = styled.div`
   background: none;
   border: 0;
   position: relative;
+  cursor: pointer;
 
   ${props =>
     props.hasUnread &&
